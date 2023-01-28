@@ -15,14 +15,26 @@
                 <p class="login-logo__text">Авторизация</p>
             </div>
             <div class="login-form">
-                <form class="login-form__form" action="" >
+                <form class="login-form__form" action="" method="get">
                 <input class="login-form__login login-form__input" type="text" placeholder="Email или телефон" value="hr@samedia.ru">
                 <input class="login-form__pass login-form__input" type="password" placeholder="Пароль" value="q10O57H25O82E40y95D12a85U96A4U34">
+                <p class="login-form__error"></p>
                 <button class="login-form__btn" type="button">Войти</button>
             </form>
             </div>
+            <div class="success">
+                <p class="success__text">Вы успешно авторизованы!</p>
+            </div>
+            <div class="preloader">
+                <div class="preloader__row">
+                  <div class="preloader__item"></div>
+                  <div class="preloader__item"></div>
+                </div>
+              </div>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="./js/fetch.js"></script>
+    
 </body>
 </html>
